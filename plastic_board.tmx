@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-up" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="plastic.tsx"/>
+ <layer name="border" width="10" height="10">
+  <data encoding="csv">
+2,3,3,3,3,3,3,3,3,4,
+6,0,0,0,0,0,0,0,0,8,
+6,0,0,0,0,0,0,0,0,8,
+6,0,0,0,0,0,0,0,0,8,
+6,0,0,0,0,0,0,0,0,8,
+6,0,0,0,0,0,0,0,0,8,
+6,0,0,0,0,0,0,0,0,8,
+6,0,0,0,0,0,0,0,0,8,
+6,0,0,0,0,0,0,0,0,8,
+10,11,11,11,11,11,11,11,11,12
+</data>
+ </layer>
+ <layer name="board" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,7,5,7,5,7,5,7,5,0,
+0,5,7,5,7,5,7,5,7,0,
+0,7,5,7,5,7,5,7,5,0,
+0,5,7,5,7,5,7,5,7,0,
+0,7,5,7,5,7,5,7,5,0,
+0,5,7,5,7,5,7,5,7,0,
+0,7,5,7,5,7,5,7,5,0,
+0,5,7,5,7,5,7,5,7,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
